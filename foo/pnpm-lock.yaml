@@ -1,0 +1,19 @@
+lockfileVersion: 5.3
+
+specifiers:
+  bar: workspace:^1.0.0
+
+dependencies:
+  bar: file:../bar
+
+packages:
+
+  file:../bar:
+    resolution: {directory: ../bar, type: directory}
+    name: bar
+    version: 1.0.0
+    dev: false
+
+dependenciesMeta:
+  bar:
+    injected: true
