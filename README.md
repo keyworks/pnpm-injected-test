@@ -1,3 +1,5 @@
+These are repro steps for issue https://github.com/pnpm/pnpm/issues/4098
+
 # Setup
 
 There are two packages: `foo` and `bar`. `bar` is 'injected' into `foo` using `dependenciesMeta.*.injected`.
