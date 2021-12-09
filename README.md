@@ -1,3 +1,7 @@
+# Setup
+
+There are two packages: `foo` and `bar`. `bar` is 'injected' into `foo` using `dependenciesMeta.*.injected`.
+
 # Reproduction steps
 
 1. Run `pnpm install`.
